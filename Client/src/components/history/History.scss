@@ -1,0 +1,12 @@
+.btn-on {
+  background-color: #fff04d;
+  min-width: 60px;
+  border-radius: 3px;
+  font-weight: 600;
+  color: #333;
+}
+.btn-off {
+  color: white;
+  z-index: 2;
+  pointer-events: none;
+}

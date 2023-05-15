@@ -1,0 +1,30 @@
+.messenger {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  &:hover {
+    background-color: rgb(245, 243, 243);
+  }
+  .messengerImg {
+    width: 40px;
+    height: 40px;
+    background: center center no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+
+  .messengerName {
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .messengerName {
+    display: none;
+  }
+}
